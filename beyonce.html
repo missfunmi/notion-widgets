@@ -13,7 +13,7 @@
     height: 85%
 }
 body{
-    background-color: lightpink;
+    background-color: '#fcd5e0';
 }
     </style>
 </head>
@@ -26,21 +26,28 @@ body{
   		"'Cause I slay, all day",
   		"To the left, to the left",
 	  	"I woke up like this",
-		  "I'm feelin' myself, I'm feelin' myself",
+		"I'm feelin' myself, I'm feelin' myself",
   		"Always stay gracious, best revenge is your paper",
 	  	"Okay, ladies, now let's get in formation",
-      "Suck on my balls, pause",
+      		"Suck on my balls, pause",
   		"Tell 'em, boy bye",
 	  	"Hold up, they don't love you like I love you",
-		  "I stop the world… WORLD STOP",
+		"I stop the world… WORLD STOP",
   		"Gimme my check, put some respek on my check",
 	  	"Have you ever seen the crowd goin' apeshit?",
-		  "Paparazzi, catch my fly and my cocky fresh",
+		"Paparazzi, catch my fly and my cocky fresh",
   		"I twirl on them haters",
-	  	"I sneezed on the beat and the beat got sicker"
+	  	"I sneezed on the beat and the beat got sicker",
+	    	"You ain't never seen a fire like the one I'ma cause",
+	        "How You gonna upgrade me? What's higher than number one?",
+        	"Middle fingers up, put them hands high. Wave it in his face, tell him boy, bye",
+	        "Imma keep runnin' cause a winner don't quit on themselves",
+        	"Diva is a female version of a hustler",
+	        "Six-inch heels, she walked in the club like nobody’s business",
+	        "I'm so reckless when I rock my Givenchy dress"
     ];
 
     var quote = quotes[Math.floor(Math.random() * quotes.length)];
-    document.getElementById('beyonce-quote').innerHTML = "'" + quote + "";
+    document.getElementById('beyonce-quote').innerHTML = `'<em>${quote}</em>`;
 </script> 
 </html>
